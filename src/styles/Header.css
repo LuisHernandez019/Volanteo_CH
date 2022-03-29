@@ -18,11 +18,13 @@ header .logo {
 header h1 {
    color: #fff;
    font-size: 18px;
+   margin: 0;
 }
 
 header ul {
    position: relative;
    display: flex;
+   margin-bottom: 0;
 }
 
 header ul li {
@@ -39,6 +41,7 @@ header ul li a {
 
 header ul li a:hover {
    font-weight: 700;
+   color: #fff;
 }
 
 @media (max-width: 750px) { 
